@@ -32,7 +32,7 @@ h1, h2 {
 }
 h1 {
 	font-size: 80px;
-	margin: 0;
+	margin: 50px;
 	writing-mode: vertical-rl;
 	text-orientation: mixed;
 	padding: 20px 10px;
@@ -58,6 +58,7 @@ h2 {
 
 p {
 	line-height: 32px;
+	text-align: center;
 }
 
 em { 
@@ -73,7 +74,8 @@ blockquote {
 	font-style:italic;
 	font-size: 48px;
 	Font-Family: 'Arvo', Serif;
-	text-align: center;
+	text-align: right;
+	
 }
 blockquote::after {
   content: "”";
@@ -118,4 +120,8 @@ h3 {
 
 em{
 	color: rgb(250, 164, 34);
+}
+
+.info{
+	color: rgb(154, 6, 173);
 }
