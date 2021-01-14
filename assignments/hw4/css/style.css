@@ -91,11 +91,11 @@ body {
 
 #pandaEars path{
   fill: black;
-  animation: colChange 3s ease infinite;
+  animation: colChange 5s ease infinite;
 }
 
 @keyframes colChange{
-  0%{fill: bisque;}
+  0%{fill: rgb(253, 207, 0);}
   50%{fill: blueviolet;}
   100% {fill: cadetblue;}
 }
