@@ -12,24 +12,24 @@ body {
 .grid div {
   flex: 1;
   height: 200px;
-  background-color: #cccccc;
+  background-color: #ce1717;
   margin: 20px;
 }
 
 .grid .one {
-  background-color: #993126;
+  background-color: #2B2D42;
 }
 
 .grid .two {
-  background-color: rgb(209, 113, 105);
+  background-color: rgb(141, 153, 174);
 }
 
 .grid .three {
-  background-color: rgba(28, 133, 153, 0.75);
+  background-color: rgba(248, 243, 43, 1);
 }
 
 .grid .four {
-  background-color: deeppink;
+  background-color: black;
 }
 
 .parent {
@@ -37,39 +37,76 @@ body {
   margin: auto;
   height: 600px;
   position: relative;
-  border: 1px solid black;
+  border: 1px solid rgb(240, 22, 174);
 }
 
 .parent .one {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(28, 133, 153, 0.85);
+  background-color: rgba(182, 109, 13, 0.5);
   width: 300px;
   height: 300px;
 }
 
 .parent .two {
   position: absolute;
-  top: 270px;
-  left: 190px;
-  color: rgba(243, 105, 63, 0.4);
-  font-size: 68px;
+  top: 200px;
+  left: 300px;
+  color: rgba(254, 104, 71, 0.8);
+  font-size: 40px;
 }
 
 .parent .three {
   position: absolute;
   bottom: 0;
-  left: 0;
-  background-color: rgba(219, 74, 207, 0.5);
+  left: 650px;
+  background-color: rgba(49, 133, 252, 0.6);
   width: 300px;
   height: 300px;
 }
 .parent .four {
   position: absolute;
   bottom: 100px;
-  left: 150px;
-  background-color: rgba(132, 243, 29, 0.5);
+  left: 300px;
+  background-color: rgba(249, 220, 92, 0.4);
   width: 300px;
   height: 300px;
 }
+
+.panda-box {
+ width: 700px;
+ margin-left: 200px;
+ 
+}
+.caption{
+  width: 600px;
+  text-align: center;
+  font-size: 35px;
+  margin: auto;
+  padding-bottom: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(24, 33, 110);
+}
+
+#pandaEars path{
+  fill: black;
+  animation: colChange 3s ease infinite;
+}
+
+@keyframes colChange{
+  0%{fill: bisque;}
+  50%{fill: blueviolet;}
+  100% {fill: cadetblue;}
+}
+
+
+.panda-box {
+  animation: rotate 6s infinite;
+}
+
+@keyframes rotate {
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(360deg);}
+  100% {transform: rotate(180deg);}
+  }
