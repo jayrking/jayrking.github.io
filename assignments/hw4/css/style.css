@@ -95,8 +95,8 @@ body {
 }
 
 @keyframes colChange{
-  0%{fill: navy;}
-  50%{fill: rgb(226, 43, 186);}
+  0%{fill: chocolate;}
+  50%{fill: pink;}
   100% {fill: cadetblue;}
 }
 
