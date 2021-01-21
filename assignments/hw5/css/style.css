@@ -33,13 +33,14 @@
     .first {
         display: flex;
         flex-wrap: wrap;
+       
     }
 
 
     .first div {
         flex: 25%;
         padding: 10px;
-        
+        height: auto;
        
     }
 
@@ -58,4 +59,7 @@
         flex-wrap: wrap;
     }
 
+    .second div {
+        flex: 1;
+    }
     
