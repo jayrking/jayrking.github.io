@@ -1,0 +1,56 @@
+* {
+    background-color: rgb(255, 244, 105);
+}
+
+
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 60px;
+    color:rgb(164, 101, 169) ;
+   font-family: 'Opake', Geneva, Verdana, sans-serif;
+   text-align: center;
+   margin: auto;
+   padding-top: 20px;
+}
+
+.animals {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+.animals div {
+    flex: 1;
+    width: 200px;
+    margin: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Opake', sans-serif;
+    border: 3px solid black; /* GET RID OF BORDER LATER!!! */
+}
+
+/*
+I'm already using flex-wrap so I don't think using media query would be necessary..but I might
+use them for text (reduce size) and stuff... idk.
+
+@media only screen and (max-width: 800px) {
+    .animals {
+        flex-direction: row;
+    }
+}
+
+
+*/
+
+.text {
+
+    font-family: josefin-sans, sans-serif;
+    font-size: 35px;
+    color: rgb(164, 101, 169) ;
+    text-align: center;
+}
