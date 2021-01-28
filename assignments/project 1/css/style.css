@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(255, 244, 105);
+    background-color: rgb(252, 221, 84);
 }
 
 
@@ -10,7 +10,7 @@ main {
 
 h1 {
     font-size: 60px;
-    color:rgb(164, 101, 169) ;
+    color:rgb(155, 86, 160) ;
    font-family: 'Opake', Geneva, Verdana, sans-serif;
    text-align: center;
    margin: auto;
@@ -51,6 +51,22 @@ use them for text (reduce size) and stuff... idk.
 
     font-family: josefin-sans, sans-serif;
     font-size: 35px;
-    color: rgb(164, 101, 169) ;
+    color: rgb(155, 86, 160) ;
     text-align: center;
+}
+
+.fennec {
+    color: rgb(255, 109, 153);
+}
+
+.vaquita {
+    color:rgb(10, 175, 98);
+}
+
+.quokka {
+    color: rgb(252, 108, 52);
+}
+
+.capybara{
+    color: rgb(98, 86, 177);
 }
