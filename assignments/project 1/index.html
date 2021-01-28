@@ -14,6 +14,8 @@
         <h1>Lesser Known Animals <br> You Can "Adopt"</h1>
     </header>
        
+    
+    <!--Fennec Audio-->
     <script>
         function play(){
              var audio = document.getElementById("fennec");
@@ -22,40 +24,78 @@
     </script>
     <audio id="fennec" src="audio/fennec.mp3" ></audio>
 
+     <!--Vaquita Audio-->
+     <script>
+        function play(){
+             var audio = document.getElementById("vaquita");
+             audio.play();
+                       }
+    </script>
+    <audio id="vaquita" src="audio/fennec.mp3" ></audio>
+
+     <!--Quokka Audio-->
+     <script>
+        function play(){
+             var audio = document.getElementById("quokka");
+             audio.play();
+                       }
+    </script>
+    <audio id="quokka" src="audio/fennec.mp3" ></audio>
+
+     <!--Capybara Audio-->
+     <script>
+        function play(){
+             var audio = document.getElementById("capybara");
+             audio.play();
+                       }
+    </script>
+    <audio id="capybara" src="audio/fennec.mp3" ></audio>
+
+
+
+
 
 
 
 
     <main>
+
         <section class="animals">
+
             <div class="fennec">
                 <a href="fennec.html">
                 <img src="img/fennec.png" alt="illustrated fennec fox">
                 </a>
                 <p value="PLAY" onclick="play()">Fennec Fox</p>
                 </div>
+
             <div class="vaquita">
                 <a href="vaquita.html">
-                    <img src="#" alt="illustrated vaquita">
+                    <img src="img/vaquita.png" alt="illustrated vaquita">
                     </a>
-                    <p>Vaquita</p>
+                    <p value="PLAY" onclick="play()">Vaquita</p>
             </div>
+
             <div class="quokka">
                 <a href="quokka.html">
-                    <img src="#" alt="illustrated quokka">
+                    <img src="img/quokka.png" alt="illustrated quokka">
                     </a>
-                    <p>Quokka</p>
+                    <p value="PLAY" onclick="play()">Quokka</p>
             </div>    
+
             <div class="capybara">
                 <a href="capybara.html">
-                    <img src="#" alt="illustrated capybara">
+                    <img src="img/capybara.png" alt="illustrated capybara">
                     </a>
-                    <p>Capybara</p>
-            </div>               
+                    <p value="PLAY" onclick="play()">Capybara</p>
+            </div>        
+
         </section>
+
+
         <section class="text">
             <div>
-                <p><strong>Click</strong> on animal's name to  <em><strong></strong>hear</strong></em> them! <br>
+                <p><strong>Click</strong> on their names to  <em><strong>hear</strong></em> them! <br>
                     <strong>Click</strong> the animals to <em><strong>learn</strong></em> more about them!</p>
             </div>
         </section>
