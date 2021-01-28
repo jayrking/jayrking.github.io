@@ -1,5 +1,6 @@
 * {
     background-color: rgb(252, 221, 84);
+    cursor: url(https://github.com/jayrking/jayrking.github.io/blob/master/assignments/project%201/img/purple_star.png?raw=true), auto;
 }
 
 
@@ -88,12 +89,19 @@ use them for text (reduce size) and stuff... idk.
     }
 
 
-.animals img:hover{
-    
-    cursor: url(img/orange_heart.png), auto;
-          
+.fennec img:hover{
+    cursor: url(https://github.com/jayrking/jayrking.github.io/blob/master/assignments/project%201/img/pink_heart.png?raw=true), auto;          
 }
 
-.animals p:hover{
-    cursor: help, auto;
+.vaquita img:hover{
+    cursor: url(https://github.com/jayrking/jayrking.github.io/blob/master/assignments/project%201/img/green_heart.png?raw=true), auto;
 }
+
+.quokka img:hover{
+ cursor: url(https://github.com/jayrking/jayrking.github.io/blob/master/assignments/project%201/img/orange_heart.png?raw=true), auto;
+}
+
+.capybara img:hover{
+    cursor: url(https://github.com/jayrking/jayrking.github.io/blob/master/assignments/project%201/img/purple_heart.png?raw=true), auto;
+}
+
