@@ -1,7 +1,11 @@
 * {
     background-color: rgb(252, 221, 84);
+}
+
+body{
     cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.svg), auto;
 }
+
 
 
 main {
@@ -97,11 +101,11 @@ use them for text (reduce size) and stuff... idk.
 }
 
 .quokka img:hover{
- cursor: url(https://github.com/jayrking/jayrking.github.io/blob/master/assignments/project%201/img/orange_heart.png?raw=true), auto;
+ cursor: url(https://github.com/jayrking/jayrking.github.io/blob/master/assignments/project1/img/orange_heart.png?raw=true), auto;
 }
 
 .capybara img:hover{
-    cursor: url(https://github.com/jayrking/jayrking.github.io/blob/master/assignments/project%201/img/purple_heart.png?raw=true), auto;
+    cursor: url(https://github.com/jayrking/jayrking.github.io/blob/master/assignments/project1/img/purple_heart.png?raw=true), auto;
 }
 
 h1:hover{
