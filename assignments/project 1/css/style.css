@@ -1,8 +1,7 @@
 * {
     background-color: rgb(252, 221, 84);
-    cursor: url(https://github.com/jayrking/jayrking.github.io/blob/master/assignments/project%201/img/purple_star.png?raw=true), auto;
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.svg), auto;
 }
-
 
 
 main {
@@ -31,7 +30,7 @@ h1 {
     text-align: center;
     font-size: 35px;
     font-family: 'Opake', sans-serif;
-    border: 3px solid black; /* GET RID OF BORDER LATER!!! */
+   
 }
 
 /*
@@ -79,7 +78,7 @@ use them for text (reduce size) and stuff... idk.
 
 .animals img:hover{
     animation: rotate 5s infinite;
-    background-color: rgb(80, 204, 204);
+    
 }
 
 @keyframes rotate {
@@ -105,3 +104,6 @@ use them for text (reduce size) and stuff... idk.
     cursor: url(https://github.com/jayrking/jayrking.github.io/blob/master/assignments/project%201/img/purple_heart.png?raw=true), auto;
 }
 
+h1:hover{
+    color: rgb(252, 221, 84);
+}
