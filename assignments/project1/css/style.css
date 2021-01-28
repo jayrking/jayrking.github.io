@@ -93,7 +93,7 @@ use them for text (reduce size) and stuff... idk.
 
 
 .fennec img:hover{
-    cursor: "url(img/pink_heart.png), auto";
+    cursor: url(https://github.com/jayrking/jayrking.github.io/blob/master/assignments/project1/img/pink_heart.png?raw=true), auto;
 }
 
 .vaquita img:hover{
