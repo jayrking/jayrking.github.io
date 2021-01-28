@@ -76,6 +76,10 @@ img:hover{
       
 }
 
+.animals p:hover{
+    cursor: grab;
+}
+
 
 .animals img{
     height: 250px;
