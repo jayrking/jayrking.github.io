@@ -17,65 +17,14 @@
         <h1>Lesser Known Animals <br> You Can "Adopt"</h1>
     </header>
 
-    <!-- Audio Source Files-->
+  
+<!--Javascript-->
 
-    <audio>
-        <source id="fennec" src="audio/fennec.mp3" type="audio/mpeg">
-        <source id="vaquita" src="audio/vaquita.mp3" type="audio/mpeg">
-        <source id="capybara" src="audio/capybara.mp3" type="audio/mpeg">
-        <source id="quokka" src="#" type="audio/mpeg">
-    </audio>
-       
-    
-    <!--Fennec Audio-->
-    <script>
-        function playAudio(){
-             var fennec = document.getElementById("fennec");
-             fennec.play();
-                       }
-    </script>
-
-    <!--
-    <audio id="fennec" src="audio/fennec.mp3" ></audio>
-        -->
-
-     <!--Vaquita Audio-->
-     <script>
-        function play(){
-             var vaquita = document.getElementById("vaquita");
-             vaquita.play();
-                       }
-    </script>
-
-    <!--
-    <audio id="vaquita" src="audio/vaquita.mp3" ></audio>
-        -->
-
-     <!--Quokka Audio-->
-     <script>
-        function play(){
-             var quokka = document.getElementById("quokka");
-             quokka.play();
-                       }
-    </script>
-
-    <!--
-    <audio id="quokka" src="audio/fennec.mp3" ></audio>
-    -->
-
-     <!--Capybara Audio-->
-     <script>
-        function play(){
-             var capybara = document.getElementById("capybara");
-             capybara.play();
-                       }
-    </script>
-
-    <!--
-    <audio id="capybara" src="audio/capybara.mp3" ></audio>
-        -->
-
-
+<script>
+    function playAudio(url) {
+new Audio(url).play();
+}
+</script>
 
 
     <!--End of javascript!-->
@@ -90,28 +39,28 @@
                 <a href="fennec.html">
                 <img src="img/fennec.png" alt="illustrated fennec fox">
                 </a>
-                <p value="PLAY" onclick="play()">Fennec Fox</p>
+                <p onclick="playAudio('audio/fennec.mp3')">Fennec Fox</p>
                 </div>
 
             <div class="vaquita">
                 <a href="vaquita.html">
                     <img src="img/vaquita.png" alt="illustrated vaquita">
                     </a>
-                    <p value="PLAY" onclick="play()">Vaquita</p>
+                    <p onclick="playAudio('audio/vaquita.mp3')">Vaquita</p>
             </div>
 
             <div class="quokka">
                 <a href="quokka.html">
                     <img src="img/quokka.png" alt="illustrated quokka">
                     </a>
-                    <p value="PLAY" onclick="play()">Quokka</p>
+                    <p onclick="playAudio('#####')">Quokka</p>
             </div>    
 
             <div class="capybara">
                 <a href="capybara.html">
                     <img src="img/capybara.png" alt="illustrated capybara">
                     </a>
-                    <p value="PLAY" onclick="play()">Capybara</p>
+                    <p onclick="playAudio('audio/capybara.mp3')">Capybara</p>
             </div>        
 
         </section>
