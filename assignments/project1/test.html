@@ -1,35 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Play/Pause Audio</title>
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <script>
-        $(document).ready(function(){
-
-            //Plays the file when the mouse is over the element
-            $("#song1").mouseover (function (){
-
-                $("#song1")[0].play();
-
-            });
-
-            //Pause the file when the mouse leaves the element
-             $("#song1").mouseleave (function (){
-
-                $("#song1")[0].pause();
-
-            });
-
-        });
-
+        function playAudio(url) {
+  new Audio(url).play();
+}
     </script>
-
 </head>
 <body>
-    <audio id="song1" controls>
-      <source src="audio/fennec.mp3" type="audio/mpeg">
-    </audio>
-
+    
+    <img src="img/adopt_wwf.png" onclick="playAudio('audio/fennec.mp3')">
+    <img src="img/green_heart.png" onclick="playAudio('audio/capybara.mp3')">
 
 
 </body>
