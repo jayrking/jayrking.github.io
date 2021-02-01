@@ -80,8 +80,8 @@ h1{
 .left p{
     
     font-family: 'Opake', sans-serif;
-    color:  rgb(252, 221, 84);
-    text-align: center;
+  
+   
 }
 
 .right p{
@@ -101,9 +101,11 @@ h1{
     font-size: 30px;
     width: 150px;
     height: 70px;
+    line-height: 15px;
 }
 
 .left .home p{
     text-align: center;
     vertical-align: middle;
+   
 }
