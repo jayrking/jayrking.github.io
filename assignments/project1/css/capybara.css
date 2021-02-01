@@ -102,10 +102,6 @@ h1{
     width: 150px;
     height: 70px;
     line-height: 15px;
+    text-align: center;
 }
 
-.left .home p{
-    text-align: center;
-    vertical-align: middle;
-   
-}
