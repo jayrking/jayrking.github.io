@@ -4,8 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn about Fennec Fox</title>
+    <link rel="stylesheet" href="css/fennec.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wam7pen.css">
 </head>
 <body>
+<!--Javascript-->
+
+<script>
+    function playAudio(url) {
+new Audio(url).play();
+}
+</script>
+
+
+<!--End of javascript!-->
+
+
+
+    <header>
+        <h1>
+            Fennec Fox
+        </h1>
+    </header>
+
+    <main>
+        <section class="animal">
+            <div class="background">
+                <div class="picture">
+                    <img src="photos/capy_pic.jpg" alt="A photograph of fennec fox">
+                </div>
+            </div>
+        </section>
+        <section class="text">
+            <div class="description">
+                <p>The fennec fox is well adapted to life in the desert. Its feet have soft fur on the soles to protect them from the heat and aid in walking on loose sand. Its large ears function like radiators to disperse heat. The fox can survive without water for extended periods, taking moisture from food and staying below ground during the heat of the day. The fennec fox mates for life and lives in family units of up to ten individuals.
+                </p>
+            </div>
+        </section>
+
+        <section class="left">
+            <div class="home">
+                <a href="index.html">
+                    <p>HOME</p>
+                </a>
+            </div>
+            <div class="sound">
+                
+                    <img src="img/sounds.png" alt="Sound" onclick="playAudio('audio/fennec.mp3')">
+                
+                <p>Sounds</p>
+            </div>
+            <div class="video">
+                <a href="https://www.youtube.com/watch?v=CdMUOsf2QNc">
+                    <img src="img/video.png" alt="Video">
+                </a>
+                <p>Video</p>
+            </div>
+            <div class="image">
+                <a href="https://www.google.com/search?q=capybara&client=ms-android-google&prmd=ivn&sxsrf=ALeKk03vLRN0Q-hridVdXkm9Ok4n0xS4PQ:1612228801113&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj2o_KnhMruAhUKrp4KHU-PA0MQ_AUoAXoECBcQAg">
+                    <img src="img/images.png" alt="Images">
+                </a>
+                <p>Images</p>
+            </div>
+        </section>
+        <section class="right">
+            <div class="wwf">
+                <p>"Adopt"</p>
+                <a href="https://gifts.worldwildlife.org/gift-center/gifts/Species-Adoptions/Capybara.aspx">
+                    <img src="img/adopt_wwf.png" alt="Symbolically adopt at WWF">
+                </a>
+                <p>At WWF</p>
+            </div>
+        </section>
+    </main>
     
 </body>
 </html>

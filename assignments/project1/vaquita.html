@@ -4,8 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn about Vaquita</title>
+    <link rel="stylesheet" href="css/vaquita.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wam7pen.css">
 </head>
 <body>
+<!--Javascript-->
+
+<script>
+    function playAudio(url) {
+new Audio(url).play();
+}
+</script>
+
+
+<!--End of javascript!-->
+
+
+
+    <header>
+        <h1>
+            Capybara
+        </h1>
+    </header>
+
+    <main>
+        <section class="animal">
+            <div class="background">
+                <div class="picture">
+                    <img src="photos/capy_pic.jpg" alt="A photograph of capybara">
+                </div>
+            </div>
+        </section>
+        <section class="text">
+            <div class="description">
+                <p>Capybaras are dependent on habitat near a water source. Because of their dry skin, they need access to a swimming hole to stay healthy; their webbed feet help them paddle. Like rhinos, their eyes, ears, and nostrils are located near the top of their head so they can keep a watchful eye on their surroundings while partially underwater. They can submerge themselves for as long as five minutes at a time to hide from predators.
+                </p>
+            </div>
+        </section>
+
+        <section class="left">
+            <div class="home">
+                <a href="index.html">
+                    <p>HOME</p>
+                </a>
+            </div>
+            <div class="sound">
+                
+                    <img src="img/sounds.png" alt="Sound" onclick="playAudio('audio/vaquita.mp3')">
+                
+                <p>Sounds</p>
+            </div>
+            <div class="video">
+                <a href="https://www.youtube.com/watch?v=CdMUOsf2QNc">
+                    <img src="img/video.png" alt="Video">
+                </a>
+                <p>Video</p>
+            </div>
+            <div class="image">
+                <a href="https://www.google.com/search?q=capybara&client=ms-android-google&prmd=ivn&sxsrf=ALeKk03vLRN0Q-hridVdXkm9Ok4n0xS4PQ:1612228801113&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj2o_KnhMruAhUKrp4KHU-PA0MQ_AUoAXoECBcQAg">
+                    <img src="img/images.png" alt="Images">
+                </a>
+                <p>Images</p>
+            </div>
+        </section>
+        <section class="right">
+            <div class="wwf">
+                <p>"Adopt"</p>
+                <a href="https://gifts.worldwildlife.org/gift-center/gifts/Species-Adoptions/Capybara.aspx">
+                    <img src="img/adopt_wwf.png" alt="Symbolically adopt at WWF">
+                </a>
+                <p>At WWF</p>
+            </div>
+        </section>
+    </main>
     
 </body>
+</html>
 </html>
