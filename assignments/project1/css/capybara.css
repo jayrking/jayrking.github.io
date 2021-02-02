@@ -28,8 +28,6 @@ h1{
     justify-content: center;
 }
 
-
-
 .background{
     height: 400px;
     width: 550px;
@@ -43,6 +41,11 @@ h1{
 .picture{
     height: 340px;
     margin: 30px;
+}
+
+.picture:hover{
+    cursor: url(https://github.com/jayrking/jayrking.github.io/blob/master/assignments/project1/img/purple_heart.png?raw=true), auto;
+
 }
 
 .text{
