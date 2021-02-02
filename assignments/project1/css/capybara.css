@@ -127,11 +127,3 @@ h1{
 a:link{
     text-decoration: none;
 }
-
-a:hover{
-    color: rgb(255, 109, 153);
-}
-
-a:active{
-    color: rgb(98, 86, 177);
-}
