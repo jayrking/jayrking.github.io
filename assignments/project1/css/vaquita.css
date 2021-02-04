@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(98, 86, 177);
+    background-color: rgb(10, 175, 98);
     cursor: url(https://github.com/jayrking/jayrking.github.io/blob/master/assignments/project1/img/cursor.png?raw=true), auto;
 
 }
@@ -35,7 +35,7 @@ h1{
 }
 
 .animal .background{
-    background-color: rgb(255, 109, 153);
+    background-color: rgb(252, 108, 52);
 }
 
 .picture{
@@ -44,7 +44,7 @@ h1{
 }
 
 .picture:hover{
-    cursor: url(https://github.com/jayrking/jayrking.github.io/blob/master/assignments/project1/img/purple_heart.png?raw=true), auto;
+    cursor: url(https://github.com/jayrking/jayrking.github.io/blob/master/assignments/project1/img/green_heart.png?raw=true), auto;
 
 }
 
