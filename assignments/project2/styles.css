@@ -1,3 +1,9 @@
+/*For all pages*/
+
+* {
+    box-sizing: border-box;
+}
+
 image {
     width: 100%;
 }
@@ -19,10 +25,6 @@ image {
 
 }
 
-.index {
-    background-color: aqua;
-
-}
 
 /* Navigation */
 .nav, .desktop {
@@ -94,7 +96,7 @@ image {
 }
 
 .menu-mobile {
-    background-color:rgba(0,0,0,0.3);;
+    background-color:rgba(0,0,0,0.5);;
     height: 100vh;
     position: fixed;
     width: 100%;
@@ -112,7 +114,7 @@ image {
 .menu-mobile a {
     clear: right;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     height: 70px;
     line-height: 70px;
 }
@@ -124,6 +126,39 @@ image {
         display: none;
     }
 /* END OF Mobile Navigation */
+
+/*For INDEX page*/
+
+
+.index {
+    background-color: aqua;
+}
+
+.index .crystal {
+    position: relative;
+    top: 100px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.index .crystal img{
+    height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    object-fit: contain;
+}
+
+.index .text{
+    position: relative;
+    top: 150px;
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+}
 
 
 
