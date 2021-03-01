@@ -26,7 +26,7 @@ image {
 }
 
 
-/* Navigation */
+/* hamburger navigation - mobile */
 .nav, .desktop {
     display: block;
     position: fixed;
@@ -137,7 +137,7 @@ image {
 .index .crystal {
     position: relative;
     top: 100px;
-    height: 200px;
+    height: 300px;
     display: block;
     margin: auto;
     border: 1px solid black;
@@ -158,6 +158,58 @@ image {
     margin: auto;
     border: 1px solid black;
     text-align: center;
+    width: 35%;
+}
+/*  the booking and chatting buttons are hidden in mobile   */
+.index .book{
+    border: 1px solid black;
+    width: 160px;
+    height: 70px;
+    padding: 25px;
+    position: absolute;
+    left: 60px;
+    top: 400px;
+    border-radius: 50%;
+    display: none;
+}
+
+.index .book a{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.index .chat{
+    border: 1px solid black;
+    width: 160px;
+    height: 70px;
+    padding: 25px;
+    position: absolute;
+    right: 60px;
+    top: 400px;
+    border-radius: 50%;
+    display: none;
+}
+
+.index .chat a{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.index .symbols {
+    position: relative;
+    top: 200px;
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    text-align: center;
+    height: 60px;
+}
+
+.index .symbols img{
+    object-fit: contain;
+    padding: 5px;
 }
 
 
@@ -208,5 +260,29 @@ image {
     .logo{
         height: 150px;
     }    
+
+    /* INDEX page */
+    .index .book{
+        display: block;
+    }
+
+    .index .chat{
+        display: block;
+    }
+
+    .index .symbols {
+        position: relative;
+        top: 200px;
+        border: 1px solid black;
+        display: block;
+        margin: auto;
+        text-align: center;
+        height: 100px;
+    }
+    
+    .index .symbols img{
+        object-fit: contain;
+        padding: 10px;
+    }
 
 }
