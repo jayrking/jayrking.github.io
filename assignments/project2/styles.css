@@ -1,4 +1,4 @@
-/*For all pages*/
+/*    For all pages     */
 
 * {
     box-sizing: border-box;
@@ -160,8 +160,8 @@ image {
     text-align: center;
     width: 35%;
 }
-/*  the booking and chatting buttons are hidden in mobile   */
-.index .book{
+/*  the booking and chatting buttons are hidden from mobile view  */
+.book{
     border: 1px solid black;
     width: 160px;
     height: 70px;
@@ -173,14 +173,14 @@ image {
     display: none;
 }
 
-.index .book a{
+.book a{
     display: block;
     margin: auto;
     text-align: center;
     text-decoration: none;
 }
 
-.index .chat{
+.chat{
     border: 1px solid black;
     width: 160px;
     height: 70px;
@@ -192,14 +192,14 @@ image {
     display: none;
 }
 
-.index .chat a{
+.chat a{
     display: block;
     margin: auto;
     text-align: center;
     text-decoration: none;
 }
 
-.index .symbols {
+.symbols {
     position: relative;
     top: 200px;
     border: 1px solid black;
@@ -209,7 +209,7 @@ image {
     height: 60px;
 }
 
-.index .symbols img{
+.symbols img{
     object-fit: contain;
     padding: 5px;
 }
@@ -262,16 +262,16 @@ image {
         height: 150px;
     }    
 
-    /* INDEX page */
-    .index .book{
+    /* book & chat & symbols */
+    .book{
         display: block;
     }
 
-    .index .chat{
+    .chat{
         display: block;
     }
 
-    .index .symbols {
+    .symbols {
         position: relative;
         top: 200px;
         border: 1px solid black;
@@ -281,7 +281,7 @@ image {
         height: 100px;
     }
     
-    .index .symbols img{
+    .symbols img{
         object-fit: contain;
         padding: 10px;
     }
