@@ -15,7 +15,7 @@ function closeMobileMenu(){
 }
 
 
-
+/*
 function desktopMenu() {
     $(window).scroll(function() {
         if ($(this).scrollTop() > 50 && $(window).width() > 768) {
@@ -25,6 +25,8 @@ function desktopMenu() {
         }
     })
 }
+
+*/
 
 //when the page loads call toggleIcon;
 $(toggleIcon);
