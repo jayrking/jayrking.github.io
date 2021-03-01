@@ -160,6 +160,29 @@ image {
     text-align: center;
     width: 35%;
 }
+
+/* booknow is hidden from desktop view */
+
+.booknow{
+    border: 1px solid black;
+    width: 200px;
+    height: 80px;
+    padding: 30px;
+    position: relative;
+    top: 170px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.booknow a{
+
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
 /*  the booking and chatting buttons are hidden from mobile view  */
 .book{
     border: 1px solid black;
@@ -199,6 +222,7 @@ image {
     text-decoration: none;
 }
 
+/* symbols at the bottom of page! */
 .symbols {
     position: relative;
     top: 200px;
@@ -260,7 +284,13 @@ image {
 
     .logo{
         height: 150px;
-    }    
+    } 
+    
+    /* hide booknow  */
+
+    .booknow{
+        display: none;
+    }
 
     /* book & chat & symbols */
     .book{
