@@ -56,7 +56,6 @@ image {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    box-shadow: 0 2px 5px rgba(0,0,0,.2);
     transition: .5s;
 }
 
@@ -95,7 +94,7 @@ image {
 }
 
 .menu-mobile {
-    background-color: #ffffff;
+    background-color:rgba(0,0,0,0.3);;
     height: 100vh;
     position: fixed;
     width: 100%;
@@ -113,7 +112,7 @@ image {
 .menu-mobile a {
     clear: right;
     text-decoration: none;
-    color: #333;
+    color: rgb(0, 0, 0);
     height: 70px;
     line-height: 70px;
 }
