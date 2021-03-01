@@ -177,6 +177,7 @@ image {
     display: block;
     margin: auto;
     text-align: center;
+    text-decoration: none;
 }
 
 .index .chat{
@@ -195,6 +196,7 @@ image {
     display: block;
     margin: auto;
     text-align: center;
+    text-decoration: none;
 }
 
 .index .symbols {
