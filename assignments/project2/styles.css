@@ -169,13 +169,33 @@ image {
 /*     ABOUT page      */
 
 .about {
-    background-color: #FFFD54;
+    background-color: #f4f746;
+}
+
+.about .intro div{
+        width: 50%;
+        border: 1px solid black;
+        display: block;
+        margin: auto;
+}
+
+.about .intro .picture {
+    margin-top: 100px;
+    text-align: center;
+    height: 300px;
+    object-fit: fill;
+}
+
+.about .intro .text{
+    margin-top: 50px;
+    text-align: left;
+    line-height: 30px;
 }
 
 /* booknow is hidden from desktop view */
 
 .booknow{
-    border: 1px solid black;
+    border: 2px solid black;
     width: 200px;
     height: 80px;
     padding: 30px;
@@ -186,8 +206,12 @@ image {
     margin: auto;
 }
 
-.booknow a{
+.about .booknow{
+    position: relative;
+    top: 80px;
+}
 
+.booknow a{
     display: block;
     margin: auto;
     text-align: center;
