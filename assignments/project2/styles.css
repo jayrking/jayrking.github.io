@@ -32,6 +32,22 @@ image {
     padding: 5px;
 }
 
+/* symbols at the bottom of page! */
+.symbols {
+    position: relative;
+    top: 200px;
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.symbols img{
+    height: 80px;
+    object-fit: contain;
+    padding: 5px;
+}
+
 
 /* hamburger navigation - mobile */
 .nav, .desktop {
@@ -172,13 +188,14 @@ image {
     background-color: #f4f746;
 }
 
+/* make pics and text more horizontal on desktop view*/
 .about .intro div{
         width: 50%;
         border: 1px solid black;
         display: block;
         margin: auto;
 }
-
+ 
 .about .intro .picture {
     margin-top: 100px;
     text-align: center;
@@ -198,7 +215,7 @@ image {
     border: 2px solid black;
     width: 200px;
     height: 80px;
-    padding: 30px;
+    padding: 18px;
     position: relative;
     top: 170px;
     border-radius: 50%;
@@ -210,12 +227,13 @@ image {
     position: relative;
     top: 80px;
 }
-
+/* make clickable area bigger on mobile by giving anchor tag some padding */
 .booknow a{
     display: block;
     margin: auto;
     text-align: center;
     text-decoration: none;
+    padding: 12px 16px;
 }
 
 /*  the booking and chatting buttons are hidden from mobile view  */
@@ -257,21 +275,7 @@ image {
     text-decoration: none;
 }
 
-/* symbols at the bottom of page! */
-.symbols {
-    position: relative;
-    top: 200px;
-    border: 1px solid black;
-    display: block;
-    margin: auto;
-    text-align: center;
-    height: 60px;
-}
 
-.symbols img{
-    object-fit: contain;
-    padding: 5px;
-}
 
 
 
@@ -342,19 +346,35 @@ image {
         display: block;
     }
 
-    .symbols {
-        position: relative;
-        top: 200px;
+    
+    
+    .symbols img{
+        height: 120px;
+        object-fit: contain;
+        padding: 5px;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+    }
+
+    /* about page content made horizontal  */
+    .about .intro div{
+        width: 40%;
+        max-width: 700px;
         border: 1px solid black;
         display: block;
         margin: auto;
-        text-align: center;
-        height: 100px;
-    }
-    
-    .symbols img{
-        object-fit: contain;
-        padding: 10px;
-    }
+}
+.about .intro .picture {
+    margin-top: 100px;
+    text-align: center;
+    height: 300px;
+    object-fit: fill;
+}
+
+.about .intro .text{
+    margin-top: 50px;
+    text-align: left;
+    line-height: 30px;
+}
 
 }
