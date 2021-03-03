@@ -182,16 +182,41 @@ image {
     width: 35%;
 }
 
-/*     ABOUT page      */
-
-.about {
-    background-color: #f4f746;
-}
-
 /*   MENU page    */
 
 .menu{
     background-color: #67F6FF;
+}
+
+.menu .offerings {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 50px;
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.menu .offerings div{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offerings img{
+    height: 10%;
+    max-width: 100%;
+    object-fit: fill;
+}
+
+/*     ABOUT page      */
+
+.about {
+    background-color: #f4f746;
 }
 
 /* make pics and text more horizontal on desktop view*/
@@ -386,5 +411,14 @@ image {
     text-align: left;
     line-height: 30px;
 }
+
+.menu .offerings{
+    padding-top: 20%;
+    flex-direction: row;
+    justify-content: space-between;
+    height:40%;
+
+}
+
 
 }
