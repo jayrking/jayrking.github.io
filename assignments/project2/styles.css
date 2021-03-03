@@ -219,6 +219,8 @@ image {
     background-color: #f4f746;
 }
 
+
+
 /* make pics and text more horizontal on desktop view*/
 .about .intro div{
         width: 50%;
@@ -232,6 +234,12 @@ image {
     text-align: center;
     height: 300px;
     object-fit: fill;
+}
+
+.about .picture img{
+    height: 300px;
+    max-width: 100%;
+    object-fit: cover;
 }
 
 .about .intro .text{
