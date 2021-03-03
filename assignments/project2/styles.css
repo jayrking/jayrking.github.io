@@ -414,6 +414,11 @@ image {
     object-fit: fill;
 }
 
+.about .picture img{
+    max-width: 700px;
+    object-fit: cover;
+}
+
 .about .intro .text{
     margin-top: 50px;
     text-align: left;
