@@ -197,6 +197,9 @@ image {
     padding-left: 20%;
     padding-right: 20%;
     padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .menu .offerings div{
@@ -205,9 +208,9 @@ image {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .offerings img{
@@ -437,11 +440,26 @@ image {
 }
 
 .menu .offerings{
+    margin-top: 50px;
     padding-top: 20%;
-    flex-direction: column;
-    justify-content: space-between;
-    height:40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
 
+}
+
+.menu .offerings div{
+    margin-top: 30px;
+    border: 1px solid black;
+    height: 150px;
+    max-width: 25%;
+    flex-direction: row;
+    margin-bottom: 10px;
+
+ 
 }
 
 
