@@ -191,17 +191,18 @@ image {
 }
 
 .menu .offerings {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding-top: 50px;
+    border: 1px solid black;
     width: 100%;
+    padding-top: 50px;
     padding-left: 20%;
     padding-right: 20%;
+    padding-bottom: 50px;
 }
 
 .menu .offerings div{
     border: 1px solid black;
+    height: 150px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -210,9 +211,8 @@ image {
 }
 
 .offerings img{
-    height: 10%;
-    max-width: 100%;
-    object-fit: fill;
+   max-height: 100%;
+    width: 150px;
 }
 
 /*     ABOUT page      */
@@ -438,7 +438,7 @@ image {
 
 .menu .offerings{
     padding-top: 20%;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     height:40%;
 
