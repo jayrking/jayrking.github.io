@@ -200,23 +200,27 @@ image {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
 }
 
 .menu .offerings div{
     border: 1px solid black;
     height: 150px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    width: 50%;
     margin-bottom: 30px;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .offerings img{
    max-height: 100%;
     width: 150px;
 }
+
+
+
 
 /*     ABOUT page      */
 
@@ -448,6 +452,7 @@ image {
     padding-top: 50px;
     padding-left: 10%;
     padding-right: 10%;
+    justify-content: center;
 
 }
 
@@ -455,9 +460,9 @@ image {
     margin-top: 30px;
     border: 1px solid black;
     height: 150px;
-    max-width: 25%;
+    max-width: 20%;
     flex-direction: row;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 
  
 }
