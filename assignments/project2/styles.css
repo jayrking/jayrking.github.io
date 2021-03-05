@@ -150,6 +150,18 @@ image {
     }
 /* END OF Mobile Navigation */
 
+/* For BOOK page: the body class is called "booke" because I already used "book" for my button */
+
+.booke {
+    background: #d6d6d6;
+}
+
+.booke .soon {
+    text-align: center;
+    margin-top: 20%;
+    padding: 15%;
+}
+
 /*For INDEX page*/
 .index {
     background-color: #947AF7;
@@ -466,6 +478,13 @@ image {
     margin-right: 30px;
 
  
+}
+
+/*   BOOK page  */
+
+.booke .soon {
+    margin-top: 10%;
+    padding: 5%;
 }
 
 
