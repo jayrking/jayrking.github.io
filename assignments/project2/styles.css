@@ -156,6 +156,11 @@ image {
     background-color: #fd6ed5;
 }
 
+.lucky .randomColor{
+    height: 20px;
+    width: 20px;
+}
+
 /* For BOOK page: the body class is called "booke" because I already used "book" for my button */
 
 .booke {
