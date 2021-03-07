@@ -150,6 +150,12 @@ image {
     }
 /* END OF Mobile Navigation */
 
+/* LUCKY NUMBER page  */
+
+.lucky{
+    background-color: #fd6ed5;
+}
+
 /* For BOOK page: the body class is called "booke" because I already used "book" for my button */
 
 .booke {
