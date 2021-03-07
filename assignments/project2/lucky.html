@@ -17,19 +17,18 @@
             document.getElementById('name').innerHTML = name;
             document.getElementById('number').innerHTML = luckyNumber;
         };
-    </script>
-
-    <!--  Random Color Javascript  -->
-    <script>
+//random color generator javascript
+ 
         function generateRandomColor()
     {
-    var randomColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+    var randomColor = '#' + Math.random().toString(16).substr(-6);
+    //'#' + Math.floor(Math.random()*16777215).toString(16);
     return randomColor;
-
     }
-    //document.body.style.backgroundColor = generateRandomColor() 
-    //document.getElementById('color').style.backgroundColor = generateRandomColor();
-    document.getElementById('color').style.backgroundColor = generateRandomColor()
+    document.body.style.backgroundColor = generateRandomColor() 
+   //container.style.backgroundColor = generateRandomColor()
+   document.getElementsByClassName('container').style.backgroundColor = generateRandomColor()
+
 
     </script>
 
@@ -73,11 +72,11 @@
             <span id="number">unavailable</span>
             </p>
             <p>Your Lucky Color is </p>
-
-            <div class="container">
-                <div id="color" style="height: 40px; width: 40px; background-color: #fff;"></div>
-            </div>
     </section>
+
+    <div class="container">
+                
+            </div>
        
     <!--    symbols at the bottom of the page     -->
         <section class="symbols">
