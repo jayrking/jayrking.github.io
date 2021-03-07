@@ -7,27 +7,31 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="lucky">
-    <!--  Javascript for Name  -->
+    <!--  Javascript for Name & Lucky Number generation  -->
     <script>
         window.onload = function(){
-            var name = prompt("What's your name?");
+            var name = prompt("What's your first name?");
             var lengthOfName = name.length;
             var luckyNumber = Math.round( Math.random() * lengthOfName);
         
             document.getElementById('name').innerHTML = name;
             document.getElementById('number').innerHTML = luckyNumber;
         };
+    </script>
 
+    <!--  Random Color Javascript  -->
+    <script>
         function generateRandomColor()
     {
     var randomColor = '#'+Math.floor(Math.random()*16777215).toString(16);
     return randomColor;
-    //random color will be freshly served
-    }
-    randomColor.style.color = generateRandomColor()
-    </script>
 
-    <!--  END OF JAVASCRIPT  -->
+    }
+    //document.body.style.backgroundColor = generateRandomColor() 
+    //document.getElementById('color').style.backgroundColor = generateRandomColor();
+    document.getElementById('color').style.backgroundColor = generateRandomColor()
+
+    </script>
 
     <!--    Logo Here      -->
     <header>
@@ -60,17 +64,19 @@
     </header>
 
     <!--     Contents    -->
-    <section>
+    <section class="luckynum">
         <p> Today's Date is
             <script> document.write(new Date().toDateString()); </script>
-             and
             </p>
-            <p>
+            <p>And
             <span id="name">name</span>'s Lucky Number is
             <span id="number">unavailable</span>
             </p>
-            <p>And your Lucky Color is </p>
-            <div class="randomColor"></div>
+            <p>Your Lucky Color is </p>
+
+            <div class="container">
+                <div id="color" style="height: 40px; width: 40px; background-color: #fff;"></div>
+            </div>
     </section>
        
     <!--    symbols at the bottom of the page     -->

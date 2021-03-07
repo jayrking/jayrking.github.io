@@ -156,12 +156,27 @@ image {
     background-color: #fd6ed5;
 }
 
-.lucky .randomColor{
-    height: 20px;
-    width: 20px;
+.luckynum{
+    padding-top: 20%;
+    display: block;
+    margin: auto;
     border: 1px solid black;
+    text-align: center;
 }
 
+#color{
+    display: block;
+    margin: auto;
+}
+
+.container{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+
+}
 /* For BOOK page: the body class is called "booke" because I already used "book" for my button */
 
 .booke {
@@ -499,5 +514,10 @@ image {
     padding: 5%;
 }
 
+/* LUCKY NUMBER page  */
+
+.luckynum{
+    padding-top: 10%
+}
 
 }
