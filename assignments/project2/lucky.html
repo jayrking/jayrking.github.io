@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="lucky">
+    <!--  Javascript for Name  -->
+    <script>
+        window.onload = function(){
+            var name = prompt("What's your name?");
+            var lengthOfName = name.length;
+            var luckyNumber = Math.round( Math.random() * lengthOfName);
+        
+            document.getElementById('name').innerHTML = name;
+            document.getElementById('number').innerHTML = luckyNumber;
+        };
+    </script>
+
     <!--    Logo Here      -->
     <header>
         <div  class="logo">
@@ -41,6 +53,11 @@
     <section>
         <p> Today's Date is
             <script> document.write(new Date().toDateString()); </script>
+             and
+            </p>
+            <p>
+            <span id="name">name</span>'s Lucky Number is
+            <span id="number">unavailable</span>
             </p>
     </section>
        
