@@ -165,12 +165,13 @@ image {
 }
 
 
-.container{
+#container{
     height: 50px;
     width: 50px;
     border: 1px solid black;
     display: block;
     margin: auto;
+    background-color: #fff;
 
 }
 /* For BOOK page: the body class is called "booke" because I already used "book" for my button */
