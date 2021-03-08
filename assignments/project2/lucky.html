@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>~book~</title>
     <link rel="stylesheet" href="styles.css">
-    <!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- -->
+    
 </head>
 <body class="lucky">
     <!--  Javascript for Name & Lucky Number generation  -->
@@ -19,21 +18,18 @@
             document.getElementById('name').innerHTML = name;
             document.getElementById('number').innerHTML = luckyNumber;
         };
-//random color generator javascript
+
  
         function generateRandomColor()
     {
     var randomColor = '#' + Math.random().toString(16).substr(-6);
     //'#' + Math.floor(Math.random()*16777215).toString(16);
-    return randomColor;
+    document.getElementById('container').style.backgroundColor = randomColor;
+    console.log(random)
+   
     }
-    
-    document.body.style.backgroundColor = generateRandomColor() 
 
-   //container.style.backgroundColor = generateRandomColor()
-   //document.getElementById('container').style.backgroundColor = generateRandomColor()
-   //$("#container").css("background-color", generateRandomColor());
-   //document.querySelector("#container").style.backgroundColor = generateRandomColor()
+    //document.body.style.backgroundColor = generateRandomColor() 
   
     </script>
 
