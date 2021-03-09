@@ -143,7 +143,7 @@ image {
     line-height: 70px;
 }
 .menu-mobile a:hover {
-    color: red;
+    color: rgb(230, 51, 221);
 }
 
 .desktop, .menu-desktop, .menu-mobile {
@@ -258,6 +258,9 @@ image {
     width: 150px;
 }
 
+.offerings p{
+    font-size: 10px;
+}
 
 
 
@@ -396,12 +399,12 @@ image {
         margin-right: 30px;
         height: 0;
         text-decoration: none;
-        color: #333;
+        color: rgb(0, 0, 0);
         justify-content: space-evenly;
         font-size: 20px;
     }
     .menu-desktop a:hover {
-        color: red;
+        color: rgb(247, 148, 18);
     }
 
     .desktop {
@@ -506,6 +509,10 @@ image {
     margin-right: 30px;
 
  
+}
+
+.offerings p{
+    font-size: 16px;
 }
 
 /*   BOOK page  */
