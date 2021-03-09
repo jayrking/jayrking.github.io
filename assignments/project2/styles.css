@@ -309,7 +309,7 @@ image {
 
 .about .booknow{
     position: relative;
-    top: 100px;
+    top: 70px;
 }
 /* make clickable area bigger on mobile by giving anchor tag some padding */
 .booknow a{
