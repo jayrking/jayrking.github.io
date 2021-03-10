@@ -201,7 +201,7 @@ image {
     line-height: 400px;
     
     width: 100%;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .index .crystal img{
@@ -211,6 +211,11 @@ image {
     display: flex;
     width: 100%;
     vertical-align: middle;
+    transition: all 0.2s;
+}
+
+.index .crystal img:hover{
+    transform: scale(1.1);
 }
 
 .index .text{
