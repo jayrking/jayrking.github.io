@@ -1,6 +1,7 @@
 *{
     background-color: rgb(128, 228, 228);
     box-sizing: border-box;
+
 }
 
 
@@ -26,6 +27,7 @@ div{
     padding: 20px;
     text-align: center;
     padding-bottom: 300px;
+    border: 1px solid black;
 }
 
 span{
@@ -53,3 +55,13 @@ div {
     opacity: 1;
     transform: translate(0, 0); 
     }
+
+
+.quote {
+    padding: 200px;
+
+}
+
+#hide{
+    display: none;
+}
