@@ -4,6 +4,10 @@
 
 }
 
+img{
+    max-width: 100%;
+    padding-bottom: 150px;
+}
 
 
 .button{
@@ -15,6 +19,7 @@ header{
     margin: auto;
     text-align: center;
     padding: 50px;
+    padding-bottom: 300px;
 }
 
 header img{
@@ -65,3 +70,42 @@ div {
 #hide{
     display: none;
 }
+
+.big-img{
+     max-height: 60%;
+}
+
+
+.small-img{
+    max-height: 60%;
+}
+
+.small-img:hover {
+    animation: jiggle 1s infinite ease-in-out;
+    animation-iteration-count: infinite; 
+  }
+  
+  @keyframes jiggle {
+    0% {transform: rotate(0deg) scale(1,1);}
+    50% {transform: rotate(2deg) scale(1,1);}
+    100% {transform: rotate(-2deg) scale(1,1)}
+  }
+
+  .shake:hover {
+    animation: shake 1s; 
+    animation-iteration-count: infinite; 
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
