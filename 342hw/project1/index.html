@@ -6,12 +6,14 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.typekit.net/mhr6anj.css">
 	<!-- meyer-reset is a special css library that overrides all the ugle default css styles that come with html5 -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" href="style.css">
+	
 </head>
 <body>
-    
+    <audio id="crack" src="crack.mp3"></audio>
 	<header>
 		<img class="big-img" src="img/1.png" alt="image of an egg">
 		<h1>"Egg"</h1>
@@ -97,9 +99,11 @@
 	<div class="dread">
 		<p>I felt a looming dread</p>
 	</div>
+	<div></div>
 	<div class="death">
 		<p>Are they going to die?</p>
 	</div>
+	<div></div>
 	<div>
 		<img class="big-img" src="img/9.png" alt="animal inside a severely cracked egg">
 		<p>Their egg is almost all the way open.</p>
@@ -107,7 +111,7 @@
 	<div>
 		<p>Nobody else seems to notice.</p>
 	</div>
-	<div>
+	<div id="sound">
 		<p><em>(Sound: egg cracking)</em></p>
 	</div>
 	<div>
@@ -124,10 +128,12 @@
 		<img class="big-img" src="img/12.png" alt="protagonist picks up a feather">
 	</div>
 	<div class="quote" onclick="myFunction() ">
-		<p id="hide">“The bird fights its way out of the egg. The egg is the world. Who would be born must first destroy a world.”
+		<h2 id="hide">“The bird fights its way out of the egg. 
+			<br> The egg is the world. 
+			<br> Who would be born must first destroy a world.”
 			<br>
 			<br>
-			-Hermann Hesse</p>
+			— Hermann Hesse</h2>
 	</div>
 </section>
 </main>
@@ -138,8 +144,8 @@
 
 	<nav>
 		<ul>
-			<li><a class="button" href="#">Go back to Main page</a></li>
-			<li class="button" onclick="windowClose();">Exit</li>
+			<li><a class="button" href="index.html">Go back to Main page</a></li>
+			<li class="button exit" onclick="windowClose();">  Exit  </li>
 		</ul>
 	</nav>
 		
