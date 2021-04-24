@@ -1,5 +1,11 @@
 function windowClose() {
-  window.open('','_self').close()
+  let new_window =
+                open(location, '_self');
+  
+            // Close this window
+            new_window.close();
+  
+            return false;
   }
 
 
