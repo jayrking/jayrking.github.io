@@ -1,10 +1,13 @@
 function windowClose() {
 
-                open(location, '_self');
-  
-            self.close();
-  
-           
+  try {
+    window.opener = window;
+    var win = window.open("","_self");
+    win.close();
+    top.close();
+} catch (e) {
+
+}    
   }
 
 
