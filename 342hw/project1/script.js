@@ -1,6 +1,6 @@
 function windowClose() {
-    window.open('','_parent','');
-    window.close(); }
+  window.open('','_self').close()
+  }
 
 
    
