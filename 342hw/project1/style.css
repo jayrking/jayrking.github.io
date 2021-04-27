@@ -54,6 +54,12 @@ div{
    
 }
 
+#sound{
+    padding: 20px;
+    margin-bottom: 300px;
+
+}
+
 span{
     color: rgb(255, 251, 0);
 }
