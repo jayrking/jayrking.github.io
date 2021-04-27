@@ -1,8 +1,7 @@
-So I wrote this story and made some doodles to go with it.
 
-I know that
+I am aware that
 
-It's not a very friendly story
+This is not a very friendly story
 
 Unless you know someone who's really under-socialized
 
