@@ -47,4 +47,5 @@ function windowClose() {
 test.addEventListener("mouseover", function( event ) {   
     var audio = document.getElementById("crack");
     audio.play();
+    audio.pause();
 }, false);
