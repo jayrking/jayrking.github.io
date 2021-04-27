@@ -31,6 +31,7 @@ header img{
     font-family: itc-american-typewriter, serif;
     line-height: 2;
     font-size: 2vw;
+
 }
 
 h1{
@@ -89,6 +90,7 @@ a{
 
 a:hover{
     text-decoration: none;
+    color: rgb(243, 239, 32);
 }
 
 a:active{
@@ -98,7 +100,9 @@ a:active{
 footer{
     text-align: center;
     padding-bottom: 15px;
+    padding-top: 50px;
     font-family: adobe-handwriting-ernie, sans-serif;
+    font-size: 8px;
 }
 
 
@@ -116,6 +120,7 @@ div {
 
 #hide{
     display: none;
+    color: rgb(94, 94, 94);
 }
 
 .big-img{
