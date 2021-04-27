@@ -38,3 +38,13 @@ function windowClose() {
           }
 
         
+          /* var audio = $("#crack")[0];
+          $("#sound").mouseenter(function() {
+          audio.play();
+          }); */
+
+          var test = document.getElementById("sound");
+test.addEventListener("mouseover", function( event ) {   
+    var audio = document.getElementById("crack");
+    audio.play();
+}, false);
