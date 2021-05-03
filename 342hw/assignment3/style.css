@@ -1,0 +1,60 @@
+*{
+    background-color: aqua;
+}
+
+.svg{
+width: 100%;
+height: auto;
+}
+
+@keyframes frog {
+    0%   {transform: translateY(0)}
+    25%  {transform: translateY(-25px)}
+    75%  {transform: translateY(25px)}
+    100% {transform: translateY(0)}
+  }
+  
+  #frog {
+    animation: frog 5s linear infinite;
+  }
+
+
+  #eyeballs{
+    animation: frog 5s linear infinite;
+  }
+
+  @keyframes ufo-big-lights {
+    0%        {fill: rgb(72, 175, 206)}
+    20%       {fill: #fbcb43}
+    40%   {fill: rgb(228, 24, 24)}
+    100% {fill: rgb(238, 63, 215)}
+  }
+  
+  #yellow {
+    animation: ufo-big-lights 3s ease infinite;
+  }
+
+
+
+@keyframes building-flames {
+    0%   {transform: scale(1, 1)}
+    50%  {transform: scale(1, 1.1)}
+    100% {transform: scale(1, 1)}
+  }
+  
+  #fuel path {
+    fill: #d84437;
+    animation       : building-flames .15s ease infinite;
+    transform-origin: center top;
+
+  }
+
+  @keyframes lights-on {
+    0%        {fill: rgb(204, 231, 52)}
+    50%       {fill: #fbcb43}
+    100%   {fill: rgb(48, 17, 223)}
+  }
+  
+  #eye path {
+    animation: lights-on 2s ease infinite;
+  }
