@@ -1,0 +1,125 @@
+/*    Communal Features Here   */
+*{
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    padding: 15px;
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+
+nav{
+    width: 500px;
+    height: 80px;
+    right: 0px;
+    top: 50px;
+    position: fixed;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+nav li{
+    font-size: 20px;
+    padding: 10px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+}
+
+li a{
+    color: black;
+}
+
+li a:hover{
+    color: white;
+}
+
+footer p{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+}
+
+.topper{
+    width: 500px;
+    right: 0px;
+    top: 4px;
+    position: fixed;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    padding: 0px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+
+}
+
+
+
+/*        Page Specific Rules: Index Page         */
+
+.index{
+    background-color: aqua;
+}
+
+.index .topper{
+    color: teal;
+    background-color: thistle;
+}
+
+.index nav{
+    background-color: tomato;
+}
+
+footer{
+    background-color: violet;
+}
+
+.index .typewriter{
+    padding-top: 100px;
+    font-size: 40px;
+    width: 70%;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+}
+
+.tgt1{
+    padding: 10px;
+    width: 30%;
+    height: 300px;
+    right: 0px;
+    position: absolute;
+}
+
+.fucktgt{
+    padding: 10px;
+    margin-top: 200px;
+    width: 50%;
+    height: 100px;
+    margin-bottom: 300px;
+
+}
+
+.notmyted{
+    height: 60px;
+}
+
