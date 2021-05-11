@@ -15,8 +15,8 @@ a{
 header{
     padding: 15px;
     display: block;
-    height: 200px;
-    width: 200px;
+    height: auto;
+   max-width: 150px;
 }
 
 nav{
@@ -35,7 +35,7 @@ nav ul{
 }
 
 nav li{
-    font-size: 20px;
+    font-size: 25px;
     padding: 10px;
     font-family: futura-pt, sans-serif;
     font-weight: 400;
@@ -57,6 +57,7 @@ footer p{
     font-size: 14px;
     font-family: futura-pt, sans-serif;
     font-weight: 400;
+ 
 }
 
 .topper{
@@ -70,20 +71,21 @@ footer p{
     padding: 0px;
     font-family: futura-pt, sans-serif;
     font-weight: 400;
-
 }
+
 
 
 
 /*        Page Specific Rules: Index Page         */
 
 .index{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
 
 .index .topper{
     color: teal;
     background-color: thistle;
+    border: 2px solid teal;
 }
 
 .index nav{
@@ -94,32 +96,74 @@ footer{
     background-color: violet;
 }
 
-.index .typewriter{
+
+#text {
+    padding: 0.5em;
+    word-wrap: break-word;
+    text-align: left;
+    user-select: none;
     padding-top: 100px;
     font-size: 40px;
     width: 70%;
     font-family: futura-pt, sans-serif;
     font-weight: 400;
-}
+  }
+  
+  #text::after {
+    content: "_";
+    opacity: 0;
+    animation: cursor 0.5s infinite alternate;
+  }
+  
+  @keyframes cursor {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 0.8;
+    }
+  }
 
 .tgt1{
     padding: 10px;
-    width: 30%;
-    height: 300px;
+    max-width: 40%;
+    height: 500px;
     right: 0px;
     position: absolute;
+    object-fit: contain;
+    z-index: -999;
 }
 
 .fucktgt{
     padding: 10px;
+    padding-left: 50px;
     margin-top: 200px;
     width: 50%;
-    height: 100px;
+    height: auto;
     margin-bottom: 300px;
+    object-fit: contain;
 
 }
 
-.notmyted{
-    height: 60px;
+.container{
+    overflow: hidden;
+    object-fit: contain;
 }
 
+.sliding{
+  height: 60px;
+    background: url(img/scroller.png);
+    background-repeat: repeat;
+    animation: slide 60s infinite;
+   
+}
+
+@keyframes slide {
+    0%{
+      transform: translate3d(0, 0, 0);
+    }
+    100%{
+      transform: translate3d(-1692px, 0, 0); /* The image width */
+    }
+  }

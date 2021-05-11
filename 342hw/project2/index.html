@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="index">
-
+    <div class="topslide">
     <p class="topper">not my ted not my ted not my ted not my ted not my ted not my ted not my ted 
         not my ted not my ted not my ted not my ted not my ted not my ted not my ted not my ted
     </p>
+    </div>
 
     <nav>
         <ul>
@@ -23,22 +24,38 @@
         </ul>
     </nav>
     <header>
-        <a href="index.html"><img src="#" alt="teddy bear with a gas mask"></a>
+        <a href="index.html"><img src="img/logo.png" alt="teddy bear with a gas mask"></a>
     </header>
     
     <main>
-        <p class="typewriter">
-            Welcome, stranger! <br>
-            This website was made to demote Ted Wheeler aka Tear Gas Ted,
-            so if you happen to have a positive opinion about Wheeler,
-            the following contents may be offensive. 
+        <p id="text">
+            <span>
+            <noscript>
+            Welcome, stranger!
+            This website was made to demote Ted Wheeler AKA Tear Gas Ted,
+            so if you happen to have a positive opinion of Wheeler,
+            the following contents may be offensive. But again, if you like
+            Ted Wheeler, what are you doing here? Go somewhere else. If you 
+            dislike Ted Wheeler, well, they say enemy of an enemy is a friend, so... Welcome, Friend!
+        </noscript>
+    </span>
         </p>
-        <img class="tgt1" src="#" alt="tear gas ted being tear gassed">
-        <img class="fucktgt" src="#" alt="fuck you ted wheeler">
+        <img class="tgt1" src="img/defundted.png" alt="tear gas ted being tear gassed">
+        <img class="fucktgt" src="img/fuckyouted.png" alt="fuck you ted wheeler">
+
+        <div class="container">
+            <div class="sliding"></div>
+        </div>
     </main>
-    <img class="notmyted" src="#" alt="ted wheeler is not my ted">
+    
     <footer>
         <p class="copyright"> All rights reserved. &copy; Gas Me Teddy </p>
     </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
 </body>
 </html>
