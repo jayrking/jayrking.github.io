@@ -146,6 +146,8 @@ footer{
 
 }
 
+/* This is where the scrolling image begins!  */
+
 .container{
     overflow: hidden;
     object-fit: contain;
