@@ -71,12 +71,12 @@ footer p{
     padding: 0px;
     font-family: futura-pt, sans-serif;
     font-weight: 400;
+    overflow: hidden;
 }
 
 
 
-
-/*        Page Specific Rules: Index Page         */
+/*        Page Specific Rules: INDEX Page         */
 
 .index{
     background-color: rgb(255, 255, 255);
@@ -92,7 +92,7 @@ footer p{
     background-color: tomato;
 }
 
-footer{
+.index footer{
     background-color: violet;
 }
 
@@ -169,3 +169,5 @@ footer{
       transform: translate3d(-1692px, 0, 0); /* The image width */
     }
   }
+
+  /*        Page Specific Rules: ABOUT Page         */
