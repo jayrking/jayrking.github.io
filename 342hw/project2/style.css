@@ -72,30 +72,60 @@ footer p{
     font-family: futura-pt, sans-serif;
     font-weight: 400;
     overflow: hidden;
+    display: block;
 }
 
+/* Media Query 1 */
+
+@media only screen and (min-width: 1200px) {
+   .topper{
+       width: 600px;
+    }
+
+   nav{
+    width: 600px;
+    height: 100px;
+}
+
+nav li{
+    font-size: 35px;
+    padding: 10px;
+    padding-top: 10px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+}
+
+header{
+    padding: 15px;
+    display: block;
+    height: auto;
+   max-width: 200px;
+}
+
+  }
 
 
 /*        Page Specific Rules: INDEX Page         */
 
 .index{
-    background-color: rgb(255, 255, 255);
+    background-color: white;
 }
 
 .index .topper{
-    color: teal;
-    background-color: thistle;
-    border: 2px solid teal;
+    color: rgb(129, 241, 215);
+    background-color: white;
+    border: 2px solid rgb(129, 241, 215);
 }
 
 .index nav{
-    background-color: tomato;
+    background-color: rgb(129, 241, 215);
 }
 
 .index footer{
-    background-color: violet;
+    background-color: rgb(129, 241, 215);
 }
 
+/* Typewriter Effect */
 
 #text {
     padding: 0.5em;
@@ -153,7 +183,7 @@ footer p{
     object-fit: contain;
 }
 
-.sliding{
+.sliding img{
   width: 50%;
   height: auto;
   padding: 0;
@@ -162,4 +192,75 @@ footer p{
 
 
 
-  /*        Page Specific Rules: ABOUT Page         */
+  /*        Page Specific Rules: FAQ Page         */
+.faq{
+    font-family: futura-pt, sans-serif;
+}  
+
+.faq .topper{
+    color: rgb(151, 95, 243);
+    background-color: white;
+    border: 2px solid rgb(151, 95, 243);;
+}
+
+.faq nav{
+    background-color: rgb(151, 95, 243);
+}
+
+.faq footer{
+    background-color: rgb(151, 95, 243);
+}
+
+.faq main{
+    width: 70%;
+}
+
+.faq div{
+    padding: 0;
+}
+
+.wrongted{
+
+    height: auto;
+    margin-top: 5%;
+}
+
+.faq h3{
+    font-size: 5vw;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 3%;
+    color: rgb(245, 92, 228);
+
+}
+
+.faq h4{
+    font-weight: 600;
+    font-size: 3vw;
+    color: white;
+}
+
+.answer p{
+    font-weight: 400;
+    font-size: 2vw;
+}
+
+.purplebox{
+  background-color: rgb(151, 95, 243);
+}
+
+.pinkbox{
+    background-color: rgb(245, 92, 228);
+}
+
+.answer a{
+    text-decoration: none;
+    color: rgb(245, 92, 228);
+}
+
+.answer a:hover{
+    color: rgb(151, 95, 243);
+}
+
+  /*        Page Specific Rules: Merch Page         */
