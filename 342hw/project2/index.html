@@ -43,18 +43,16 @@
         <img class="tgt1" src="img/defundted.png" alt="tear gas ted being tear gassed">
         <img class="fucktgt" src="img/fuckyouted.png" alt="fuck you ted wheeler">
 
-<!--scrolling banner-->
-
-<div class="container">  
-  </div>
-  <div class="horizontal-scrolling-banner">
-    <div class="sample-item-1"><img src="img/scroller.png"></div>
-    <div class="sample-item-2"><img src="img/scroller.png"></div>
-    <div class="sample-item-3"><img src="img/scroller.png"></div>
-  </div>
-
-
-
+        <div class="container">
+                <marquee behavior="scroll" direction="left" scrollamount="4" onmouseover="this.stop();" onmouseout="this.start();">
+                    <div class="sliding">
+                        <img src="img/scroller.png">
+                        <img src="img/scroller.png">
+                        <img src="img/scroller.png">
+                    </div>
+                </marquee>
+            </div>
+        </div>
     </main>
     
     <footer>
@@ -66,5 +64,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="script.js"></script>
+    <script src=""></script>
 </body>
 </html>
