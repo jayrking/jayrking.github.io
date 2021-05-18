@@ -148,27 +148,49 @@ footer p{
 
 /* This is where the scrolling image begins!  */
 
-.container{
-    overflow: hidden;
-    object-fit: contain;
-}
-
-.sliding{
-  width: 1000px;
-  height: 60px;
-    background: url(img/scroller.png);
-    background-repeat: repeat;
-    animation: slide 60s infinite;
-   
-}
-
-@keyframes slide {
-    0%{
-      transform: translate3d(0, 0, 0);
-    }
-    100%{
-      transform: translate3d(-1000px, 0, 0); /* The image width */
-    }
+.container {
+    margin: 0 auto 2rem;
+    max-width: 900px;
+    padding: 0 1.5rem; 
   }
+  
+  .sample-item-1 {
+    height: 150px;
+    min-width: 200px;
+   
+    
+  }
+  
+  .sample-item-2 {
+    background-color: #32292F;
+    height: 200px;
+    min-width: 150px;
+    width: 150px;
+  }
+  
+  .sample-item-3 {
+    background-color: #D81E5B;
+    height: 125px;
+    min-width: 225px;
+    width: 225px;
+  }
+  
+ 
+  
+  .horizontal-scrolling-banner {
+    overflow: hidden;
+  }
+  
+  .horizontal-scrolling-banner__helper-wrapper {
+    align-items: center;
+    display: flex;
+    left: 0;
+    transform: translateZ(0);
+    transition-property: left;
+    transition-timing-function: linear;
+  }
+  
+
+
 
   /*        Page Specific Rules: ABOUT Page         */
