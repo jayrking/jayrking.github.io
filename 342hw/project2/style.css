@@ -102,6 +102,8 @@ header{
    max-width: 200px;
 }
 
+
+
   }
 
 
@@ -264,3 +266,101 @@ header{
 }
 
   /*        Page Specific Rules: Merch Page         */
+
+.merch{
+    font-family: futura-pt, sans-serif;
+}
+
+.merch .topper{
+    color: rgb(132, 186, 249);
+    background-color: white;
+    border: 2px solid rgb(132, 186, 249);
+}
+
+.merch nav{
+    background-color: rgb(132, 186, 249);
+}
+
+.merch footer{
+    background-color: rgb(132, 186, 249);
+}
+
+.merch main{
+    padding-top: 7vw;
+    width: 90vw;
+    display: block;
+    margin: auto;
+}
+
+.flexbox{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+margin-bottom: 5vw;
+}
+
+.child{
+    padding: 10px;
+    margin: 60px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+
+.child .txt{
+    margin-top: 15px;
+    padding: 0;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 300;
+    color: white;
+    background-color: rgb(132, 186, 249);
+}
+
+.child .txt span{
+    font-weight: 400;
+}
+
+.merch .title{
+    top: 150px;
+    right: 100px;
+    position: absolute;
+}
+.merch h1{
+    font-size: 64px;
+    color: rgb(132, 186, 249);
+    font-weight: 700;
+}
+
+.merch h4{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+/*  Media Query 2 */
+
+@media only screen and (max-width: 900px) {
+
+ .merch .title{
+     top: 120px;
+     right: 30px;
+    
+ }
+ .merch h1{
+     font-size: 38px;
+     
+     font-weight: 700;
+ }
+ 
+ .merch h4{
+     font-size: 18px;
+     font-weight: 300;
+ }
+
+ .flexbox{
+     margin-bottom: 10vw;
+ }
+ 
+}
+
+/*   Page Specific Rules: ABOUT page   */
