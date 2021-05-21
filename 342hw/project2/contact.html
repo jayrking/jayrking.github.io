@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>No More TGT!</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="https://use.typekit.net/ndx0sxi.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -28,7 +28,50 @@
     </header>
     
     <main>
-       <!--Code here-->
+
+        <h1>Have an idea? <br> Contact Us!</h1>
+
+        <form id="survey-form">
+            <div id="name-form">
+              <label id="name-label" for="name">Name:</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="form-control"
+                placeholder="Name:"
+                required
+              />
+            </div>
+
+            <div id="email-form">
+                <label id="email-label" for="email">Email: </label>
+                 <input
+                   type="email"
+                   name="email"
+                   id="email"
+                   class="form-control"
+                   placeholder="Enter your Email"
+                   required
+                 />
+               </div>
+
+            
+            <div id="textarea-form">
+                <label id="textarea-label" for="comments">Message: </label>
+                 <textarea
+                  id="comments"
+                  class="input-textarea"
+                  name="comments"
+                  placeholder="Enter your message here :D"
+                ></textarea>
+              </div>
+              <div class="submit-form">
+                <button type="submit" id="submit" class="submit-button" onclick="window.location.href='https://www.w3docs.com';" value="w3docs">
+                  Submit
+                </button>
+              </div>
+            </form>
     </main>
     
     <footer>

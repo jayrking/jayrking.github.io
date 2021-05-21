@@ -363,4 +363,13 @@ margin-bottom: 5vw;
  
 }
 
-/*   Page Specific Rules: ABOUT page   */
+/*   Page Specific Rules: CONTACT page   */
+
+.contact{
+    font-family: futura-pt, sans-serif;
+}
+
+.contact h1{
+    font-size: 40px;
+    
+}
