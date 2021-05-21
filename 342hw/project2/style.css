@@ -373,3 +373,16 @@ margin-bottom: 5vw;
     font-size: 40px;
     
 }
+
+/*   Page Specific Rules: SUBMIT page   */
+
+.submit{
+    font-family: futura-pt, sans-serif;
+}
+
+.submit h1{
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 20%;
+    padding-top: 10%;
+}
