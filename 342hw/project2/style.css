@@ -1,7 +1,7 @@
 /*    Communal Features Here   */
 *{
     box-sizing: border-box;
-    border: 1px solid black;
+
 }
 
 img{
@@ -462,4 +462,117 @@ margin-bottom: 5vw;
     text-align: center;
     padding-bottom: 20%;
     padding-top: 10%;
+}
+
+
+/*   Page Specific Rules: ABOUT Page  */
+
+.about{
+    font-family: futura-pt, sans-serif;
+}
+
+.about .topper{
+    color: rgb(247, 92, 228);
+    background-color: white;
+    border: 2px solid rgb(247, 92, 228);
+}
+
+.about nav{
+    background-color: rgb(247, 92, 228);
+}
+
+.about footer{
+    background-color: rgb(247, 92, 228);
+}
+
+.about main{
+    padding-top: 7vw;
+    width: 90vw;
+    display: block;
+    margin: auto;
+}
+
+.about .title{
+    top: 150px;
+    right: 100px;
+    position: absolute;
+}
+.about h1{
+    font-size: 64px;
+    color: rgb(247, 92, 228);
+    font-weight: 700;
+}
+
+.about h4{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.about .profile{
+    border: 2px solid rgb(247, 92, 228);
+    margin-top: 10%;
+}
+
+.tedpic{
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid rgb(247, 92, 228);
+}
+
+.basicinfo{
+    width: 40%;
+    float: right;
+    position: absolute;
+    top: 40vw;
+    right: 10vw;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.basicinfo h3{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.basicinfo h3 span{
+    color: rgb(247, 92, 228);
+}
+
+.basicinfo p{
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(247, 92, 228);
+}
+
+.addinfo{
+    margin-top: 40px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.addinfo h3{
+    font-size: 45px;
+}
+
+.addinfo h5{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.addinfo .article{
+    color: rgb(247, 92, 228);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.addinfo .sources{
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+
+.addinfo ul li{
+    margin: 5px;
 }
