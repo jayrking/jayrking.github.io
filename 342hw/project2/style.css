@@ -338,6 +338,11 @@ margin-bottom: 5vw;
     font-weight: 300;
 }
 
+.merch .mailorder{
+    text-align: center;
+    font-size: 14px;
+}
+
 /*  Media Query 2 */
 
 @media only screen and (max-width: 900px) {
@@ -510,7 +515,8 @@ margin-bottom: 5vw;
 
 .about .profile{
     border: 2px solid rgb(247, 92, 228);
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .tedpic{
